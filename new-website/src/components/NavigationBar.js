@@ -5,20 +5,20 @@ import Navigation from '../stylesheets/Navigation.css';
 export const NavigationBar = () => {
 
     return (
-    <Navbar fluid >
+    <Navbar fluid inverse>
    <Navbar.Header>
     <Navbar.Brand>
       <a href="#home">LA</a>
     </Navbar.Brand>
   </Navbar.Header>
-  <Nav>
+  <Nav pullRight>
     <NavItem eventKey={1} href="#" className="nav">
       ABOUT
     </NavItem>
     <NavItem eventKey={2} href="#" className="nav">
       BLOG
     </NavItem>
-    <NavItem eventKey={2} href="#" className="nav">
+    <NavItem eventKey={3} href="#" className="nav">
       CONTACT
     </NavItem>
     
