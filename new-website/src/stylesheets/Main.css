@@ -1,5 +1,7 @@
 .Main{
     margin: 0;
     padding: 0;
-    height: 1200px; 
+    height: 2500px; 
+    font-family: 'Archivo Narrow', sans-serif;
+    background-color: rgb(224, 227, 233);
 }
