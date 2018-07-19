@@ -9,31 +9,11 @@ export const NavigationBar = () => {
     return (
     <div>
       <nav className='nav'>
-          <a href='#'> LA </a> 
-          <a href='#'> ABOUT </a>
-          <a href='#'> BLOG </a> 
-          <a href='#'> CONTACT </a> 
+          <a href='#' className='navLink'> LA </a> 
+          <a href='#' className='navLink'> ABOUT </a>
+          <a href='#' className='navLink'> BLOG </a> 
+          <a href='#' className='navLink'> CONTACT </a> 
       </nav>
     </div>
     );
 }
-
-{/* <Navbar  bsStyle="custom" fluid inverse>
-<Navbar.Header>
- <Navbar.Brand>
-   <a href="#home">LA</a>
- </Navbar.Brand>
-</Navbar.Header>
-<Nav pullRight>
- <NavItem eventKey={1} href="#" className="nav">
-   ABOUT
- </NavItem>
- <NavItem eventKey={2} href="#" className="nav">
-   BLOG
- </NavItem>
- <NavItem eventKey={3} href="#" className="nav">
-   CONTACT
- </NavItem>
- 
-</Nav> 
-</Navbar>  */}
