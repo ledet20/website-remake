@@ -1,8 +1,9 @@
 .Main{
     margin: 0;
     padding: 0;
-    height: 2500px; 
+    height: 1000px; 
     font-family: 'Archivo Narrow', sans-serif;
     background-color: white;
     /* rgb(224, 227, 233); */
+    text-decoration: none;
 }

@@ -1,6 +1,7 @@
 .contactPage {
     height: 18%;
     /* border: 4px solid black; */
+   
 }
 
 .contact {
@@ -20,7 +21,8 @@
 }
 
 p {
-    font-size: 25px;
+    margin-top: 20%;
+    font-size: 23px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
